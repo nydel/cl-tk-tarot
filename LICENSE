@@ -1,3 +1,14 @@
+PSARA Development
+Common Lisp System/Package :CL-TAROT
+
+CL-TAROT is licensed under the terms of the Lisp Lesser GNU
+Public License (http://opensource.franz.com/preamble.html), known as
+the LLGPL.  The LLGPL consists of a preamble (see above URL) and the
+LGPL.  Where these conflict, the preamble takes precedence. 
+CL-TAROT is referenced in the preamble as the "LIBRARY."
+
+
+
 GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
