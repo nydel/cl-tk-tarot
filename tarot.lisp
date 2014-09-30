@@ -1,4 +1,3 @@
-23
 ;(defparameter awol-cards (make-hash-table))
 
 
@@ -20,6 +19,16 @@
      (lambda (draw-value)
        (assoc draw-value deck))
      draw)))
+
+(defun cardp (list)
+  (when (and
+	 (listp list)
+	 (integerp (first list))
+	 (integerp (second list))
+	 (stringp (third list))
+	 (stringp (fourth list))
+	 (pathnamep (fifth list)))
+    t))
 
 (defun guess-path (card)
   (with-output-to-string (str)
