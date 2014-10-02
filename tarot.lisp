@@ -1,6 +1,12 @@
 ;(defparameter awol-cards (make-hash-table))
 
 
+
+;;;;;;;;;;
+;; #'draw is close to being functional
+;; some say it doesn't need to be but i kinda don't care
+;;;;;;;;;;
+
 (defun draw (num)
   (let ((awol-cards (make-hash-table))
 	(hand (list)))
@@ -19,6 +25,13 @@
      (lambda (draw-value)
        (assoc draw-value deck))
      draw)))
+
+
+;;;;;;;;;
+;; arbitrary messy & temporary card predicate
+;; until we decide how cards, decks, spreads are treated
+;; in terms of the CLOS etc
+;;;;;;;;;
 
 (defun cardp (list)
   (when (and
