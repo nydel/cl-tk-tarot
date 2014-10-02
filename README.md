@@ -1,7 +1,12 @@
-cl-tarot
+cl-tk-tarot
 ========
 
-a common lisp tarot package
+a common lisp tarot package with tk gui
+
+update 2014-10-02:
+--------
+- working on form-object functionality and CLOS planning
+- updated licensing for main project and included images
 
 update 2014-09-30: 
 --------
