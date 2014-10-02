@@ -46,6 +46,14 @@
      :name "cl-tarot tcl/tk threaded window 0010")))
 
 
+
+;;;;;;;;;;
+;; the following function is the only one that actually should be used
+;; and even it is a placeholder
+;; until we develop the method for which we'll be handling cards, decks, spreads,
+;; and other potential objects.
+;;;;;;;;;
+
 (defun 3-card-window ()
   (let ((spread (assoc-draw :draw (draw 3))))
     (with-ltk ()
