@@ -1,9 +1,15 @@
 (defvar *crowleycards* nil)
+;;;;;;;;;;
 ;; here i use the basic definitions of the cards as outlined in crowley's work
 ;; regarding the book of thoth. the associated images - at least for now - are
 ;; actually the rider-waite book/deck as designed by arthur edward waite & as
 ;; painted by pamela coleman smith. an easy way to add image libraries, i.e.
 ;; support for multple "decks" is on the project's todo list.
+;;;;;;;;;;
+;; the licensing for these images is explained in "images/LICENSE" but basically,
+;; none of these images, which are NOT the 1971 US Games images, are under any
+;; manner of copyright in the United States of America.
+;;;;;;;;;;
 (setf   *crowleycards* '((1  . (1  "wands"  "fire" #P"images/wands1.png"))
 			 (2  . (1  "cups"   "water" #P"images/cups1.png"))
 			 (3  . (1  "swords" "air" #P"images/swords1.png"))
